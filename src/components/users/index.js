@@ -67,6 +67,7 @@ const Users = () => {
             <td>{value.qualification}</td>
             <td>{value.email}</td>
             <td><Button variant="danger" onClick={() => handleDeleteUsers(value.name)}>Delete</Button></td>
+            <td><Button variant="danger" onClick={() => handleDeleteUsers(value.name)}>Edit</Button></td>
           </tr>
           ))}
         </tbody>
