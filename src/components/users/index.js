@@ -81,13 +81,6 @@ const Users = () => {
         </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Loki</td>
-            <td>M</td>
-            <td>294783</td>
-            <td>BE</td>
-            <td>loki@gmail.com</td>
-          </tr>
           {users?.map((value) => (
             (!value.hasOwnProperty('edit')) ? (
             <tr >
